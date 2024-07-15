@@ -1,4 +1,4 @@
-const CryptoJS = require('D:\\untitled16\\node_modules\\crypto-js')
+const CryptoJS = require('crypto-js')
 
 function AESDecrypt(str) {
     var nContent = CryptoJS.AES.decrypt(str, variate.key, {
